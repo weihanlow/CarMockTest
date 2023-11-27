@@ -23,5 +23,9 @@ public class Main {
         Repair.getReturnDate(toyotaYaris1);
         Repair.getReturnDate(hondaTing1);
         Repair.getReturnDate(mercTruck1);
+
+        JD001.pickUp(toyotaYaris1);
+        JD001.pickUp(hondaTing1);
+        DW001.pickUp(mercTruck1);
     }
 }
